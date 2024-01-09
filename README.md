@@ -6,7 +6,6 @@ Over the past several years, I've taken programming courses ranging from Introdu
 
 # Languages
 A majority of the code will be written in two different versions: C++ and Python. 
-JAVA soon to follow
 
 # Copyright
 The code that I will release can be used for educational purposes but, if anyone wishes to use the code, must alter the code enough so that it isn't an exact copy of the original. 

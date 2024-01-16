@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Rosa/Documents/CAL FUL/CPSC 131 Data Structures/projects/final/book.h
+iostream
+-
+string
+-
+string_view
+-
+
+/cygdrive/c/Users/Rosa/Documents/CAL FUL/CPSC 131 Data Structures/projects/final/main.cpp
+algorithm
+-
+cstddef
+-
+forward_list
+-
+iostream
+-
+iterator
+-
+list
+-
+map
+-
+random
+-
+string
+-
+unordered_map
+-
+vector
+-
+book.h
+/cygdrive/c/Users/Rosa/Documents/CAL FUL/CPSC 131 Data Structures/projects/final/book.h
+timer.h
+/cygdrive/c/Users/Rosa/Documents/CAL FUL/CPSC 131 Data Structures/projects/final/timer.h
+
+/cygdrive/c/Users/Rosa/Documents/CAL FUL/CPSC 131 Data Structures/projects/final/timer.h
+string
+-
+iostream
+-
+chrono
+-
+

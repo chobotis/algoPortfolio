@@ -1,0 +1,1 @@
+WelcomePress ctrl-z or ctrl-d to quitEnter ISBN, TITLE, AUTHOR, and PRICE

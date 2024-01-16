@@ -1,0 +1,41 @@
+Setting working directory to:  ./project1group12
+
+Student files found:
+.
+├── Book.cpp
+├── Book.hpp
+├── Booklist.cpp
+├── BookList.hpp
+└── main.cpp
+
+0 directories, 5 files
+
+Removing student files:
+
+Extracting student content from:
+extracted './Book.hpp'
+extracted './BookList.hpp'
+extracted './Booklist.cpp'
+  ** modification to content outside designated TO-DO regions has been detected and discarded. See ./Booklist.cpp.dif
+extracted './main.cpp'
+  ** modification to content outside designated TO-DO regions has been detected and discarded. See ./main.cpp.dif
+
+
+Adding baseline files:
+'/home/thomas/Desktop/BaselineFiles/source/RegressionTests' -> './RegressionTests'
+'/home/thomas/Desktop/BaselineFiles/source/RegressionTests/BookListTests.cpp' -> './RegressionTests/BookListTests.cpp'
+'/home/thomas/Desktop/BaselineFiles/source/RegressionTests/BookTests.cpp' -> './RegressionTests/BookTests.cpp'
+'/home/thomas/Desktop/BaselineFiles/source/RegressionTests/CheckResults.hpp' -> './RegressionTests/CheckResults.hpp'
+'/home/thomas/Desktop/BaselineFiles/data/input.txt' -> './input.txt'
+
+Compiling and executing delivery
+Compile and execution completed successfully
+
+Clean up:
+removed './homework_(g++).exe'
+removed './homework_(clang++).exe'
+removed './RegressionTests/BookListTests.cpp'
+removed './RegressionTests/BookTests.cpp'
+removed './RegressionTests/CheckResults.hpp'
+removed directory './RegressionTests'
+removed './input.txt'

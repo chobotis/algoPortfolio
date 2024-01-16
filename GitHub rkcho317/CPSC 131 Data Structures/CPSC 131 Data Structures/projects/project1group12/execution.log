@@ -1,0 +1,57 @@
+
+Book List Regression Tests:
+FAILURE:  Regression test for "class BookList" failed with an unhandled exception. 
+
+
+Container consistency error
+ detected in function "std::size_t BookList::size() const"
+ at line 145
+ in file "./Booklist.cpp"
+
+Book Regression Test:  Construction
+  [PASSED] Default price: expected and actual '0.00' are equal
+  [PASSED] Symmetrical Title mutator/query: expected and actual '1-3-5' are equal
+  [PASSED] Symmetrical Author mutator/query: expected and actual '21-23-25' are equal
+  [PASSED] Symmetrical ISBN code mutator/query: expected and actual '11-13-15' are equal
+  [PASSED] Symmetrical Price mutator/query: expected and actual '31.11' are equal
+  [PASSED] Book construction with arguments: expected and actual 'true' are equal
+  [PASSED] Copy construction: expected and actual 'true' are equal
+  [PASSED] Copy construction: expected and actual 'true' are equal
+
+Book Regression Test:  Relational comparisons
+ *[FAILED] Equality test - is equal                   : expected '"a1" , "a1" , "a1" , 10.0000' is not equal to actual '"a1" , "a1" , "a1" , 10.0000'
+  [PASSED] Equality test - floating point lower limit : expected and actual '"a1" , "a1" , "a1" , 9.9999' are equal
+  [PASSED] Equality test - floating point upper limit : expected and actual '"a1" , "a1" , "a1" , 10.0001' are equal
+ *[FAILED] Inequality Title test                      : left and right hand sides '"a1" , "a1" , "a1" , 10.0000' are equal
+ *[FAILED] Inequality Author test                     : left and right hand sides '"a1" , "a1" , "a1" , 10.0000' are equal
+ *[FAILED] Inequality ISBN test                       : left and right hand sides '"a1" , "a1" , "a1" , 10.0000' are equal
+ *[FAILED] Inequality Price test - lower limit        : left and right hand sides '"a1" , "a1" , "a1" , 10.0000' are equal
+ *[FAILED] Inequality Price test - upper limit        : left and right hand sides '"a1" , "a1" , "a1" , 10.0000' are equal
+ *[FAILED] Relational Price test                      : expected 'true' is not equal to actual 'false'
+ *[FAILED] Relational Title test                      : expected 'true' is not equal to actual 'false'
+ *[FAILED] Relational Author test                     : expected 'true' is not equal to actual 'false'
+ *[FAILED] Relational ISBN test                       : expected 'true' is not equal to actual 'false'
+
+Book Regression Test:  Input/Output
+ *[FAILED] Book input parsing 1: expected '"0000171921" , "Linux commands & resources directory - 1st ed" , "Howard L. Goldberg" , 56.69' is not equal to actual '"0000171921" , "Linux commands & resources directory - 1st ed" , "Howard L. Goldberg" , 56.69'
+ *[FAILED] Book input parsing 2: expected '"0000370096" , "Where eagles dare" , "Norah Woollard" , 118.07' is not equal to actual '"0000370096" , "Where eagles dare" , "Norah Woollard" , 118.07'
+ *[FAILED] Book input parsing 3: expected '"0001005340" , "Little Grey Rabbit's Birthday" , "Alison \"Ally\" Uttley" , 31.57' is not equal to actual '"0001005340" , "Little Grey Rabbit's Birthday" , "Alison \"Ally\" Uttley" , 31.57'
+ *[FAILED] Book input parsing 4: expected '"0001062417" , "Early aircraft" , "Allward, Maurice F." , 65.65' is not equal to actual '"0001062417" , "Early aircraft" , "Allward, Maurice F." , 65.65'
+ *[FAILED] Book input parsing 5: expected '"0001051776" , "The  poems of Rudyard Kipling" , "Rudyard Kipling" , 26.45' is not equal to actual '"0001051776" , "The  poems of Rudyard Kipling" , "Rudyard Kipling" , 26.45'
+ *[FAILED] Book input parsing 6: expected '"" , "" , "" , 0.00' is not equal to actual '"" , "" , "" , 0.00'
+ *[FAILED] Symmetrical Book insertion and extraction 1: expected '"" , "" , "" , 0.00' is not equal to actual '"" , "" , "" , 0.00'
+ *[FAILED] Symmetrical Book insertion and extraction 2: expected '"" , "book's title" , "" , 0.00' is not equal to actual '"" , "book's title" , "" , 0.00'
+ *[FAILED] Symmetrical Book insertion and extraction 3: expected '"" , "book's title" , "book's author" , 0.00' is not equal to actual '"" , "book's title" , "book's author" , 0.00'
+ *[FAILED] Symmetrical Book insertion and extraction 4: expected '"book's ISBN" , "book's title" , "book's author" , 0.00' is not equal to actual '"book's ISBN" , "book's title" , "book's author" , 0.00'
+ *[FAILED] Symmetrical Book insertion and extraction 5: expected '"book's ISBN" , "book's title" , "book's author" , 123.79' is not equal to actual '"book's ISBN" , "book's title" , "book's author" , 123.79'
+
+
+Summary: 10 of 31 (32.26%) tests passed
+
+
+
+My Book ListFatal Error:  unhanded exception "N8BookList23InvalidInternalState_ExE"
+Container consistency error
+ detected in function "std::ostream &operator<<(std::ostream &, const BookList &)"
+ at line 331
+ in file "./Booklist.cpp"

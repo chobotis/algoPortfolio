@@ -1,0 +1,22 @@
+83a84,86
+> /*    ///////////////////////// TO-DO (1) //////////////////////////////
+>      /// Create, manipulate, and display your own BookList object here.  Not looking for anything specific but expect you to
+>      /// demonstrate you can use the BookList class to create, update, and display the contents of a book list.
+85d87
+<     ///////////////////////// TO-DO (1) //////////////////////////////
+86a89,103
+> */
+>     //create BookList class
+>     BookList newBook =        {{"Land of the Lustrous", "Haruko Ichikawa"               },
+>                               {"Creativity Inc.", "Ed Catmull"          },
+>                               {"Art of Space X"                                  },
+>                               {"Shadow Over Innsmouth", "HP Lovecraft" },
+>                               {"Labyrinth of the Mind's Eye", "V.S. Rasthmantha"                   }};
+> 
+>     //update
+>     newBook.insert({"Before the Flood", "Young-In Kim"}, newBook.find({"Land of the Lustrous"}) );
+>     newBook.remove({"Creativity Inc.", "Ed Catmull"});
+> 
+>     //display
+>     std::cout<<newBook<<"\n\n";
+> 

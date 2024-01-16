@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/project1_rkcho317.dir/main.cpp.o  -o project1_rkcho317.exe -Wl,--out-implib,libproject1_rkcho317.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

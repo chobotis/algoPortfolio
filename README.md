@@ -7,5 +7,8 @@ Over the past several years, I've taken programming courses ranging from Introdu
 # Languages
 A majority of the code will be written in two different versions: C++ and Python. 
 
+# Notes regarding Lecture Notes and Powerpoint Slides
+I am currently rewriting them so, if you notice files going missing, it's because they are old information.
+
 # Copyright
 The code that I will release can be used for educational purposes but, if anyone wishes to use the code, must alter the code enough so that it isn't an exact copy of the original. 
